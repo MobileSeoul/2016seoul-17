@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.seoul.culture"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <com.seoul.culture.util.CircleFlowIndicator
+        android:id="@+id/viewflowindic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        app:fadeOut="1000"
+        app:inactiveType="fill" >
+    </com.seoul.culture.util.CircleFlowIndicator>
+
+    <com.seoul.culture.util.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sidebuffer="1" >
+    </com.seoul.culture.util.ViewFlow>
+
+</FrameLayout>

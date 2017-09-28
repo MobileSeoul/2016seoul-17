@@ -1,0 +1,6 @@
+int drawable library_btn_navermap_bg 0x7f020000
+int drawable library_btn_navermap_bg_pressed 0x7f020001
+int drawable library_naver_logo 0x7f020002
+int drawable mapbg_blank 0x7f020003
+int drawable selector_btn_navermap_bg 0x7f020004
+int string app_name 0x7f030000
